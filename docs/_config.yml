@@ -1,0 +1,20 @@
+title: "Goldstonian Concordance Bible"
+description: "Walking in the Word of God with clarity in a noisy digital age."
+theme: minima
+
+# Update these for your GitHub Pages URL:
+# If you use https://<org>.github.io/<repo>:
+url: "https://goldstonianconcordancebible.github.io"
+baseurl: "/gcb-growth-engine"
+
+markdown: kramdown
+
+# Simple navigation
+header_pages:
+  - start-here.md
+  - linkhub.md
+  - reading-plans/index.md
+  - lead-magnets/index.md
+  - offers/index.md
+  - faq.md
+  - press-kit.md
