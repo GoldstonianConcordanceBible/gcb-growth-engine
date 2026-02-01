@@ -1,0 +1,27 @@
+name: Verify Link Hub
+
+on:
+  workflow_dispatch:
+  push:
+    branches: ["main"]
+    paths:
+      - "docs/linkhub.md"
+      - "scripts/verify_linkhub.py"
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Verify linkhub formatting
+        run: |
+          python scripts/verify_linkhub.py
