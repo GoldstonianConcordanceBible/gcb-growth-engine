@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 import argparse
-from datetime import date
 
 TEMPLATE = """---
 title: "{title}"
@@ -69,7 +68,6 @@ def main():
     with open(out_path, "w", encoding="utf-8") as f:
         f.write(content)
 
-    # Ensure index exists (does not overwrite)
     idx_path = "docs/reading-plans/index.md"
     with open(idx_path, "a", encoding="utf-8") as f:
         f.write(f"\n- [{title}](./{args.week_slug}.html)\n")
