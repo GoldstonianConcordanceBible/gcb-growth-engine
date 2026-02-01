@@ -16,6 +16,7 @@ This ecosystem combines canonical indexing, companion study resources, and publi
 - **Free Downloads**: ./lead-magnets/index.html
 - **GitHub Org**: https://github.com/GoldstonianConcordanceBible
 - **Canonical Index**: [https://github.com/GoldstonianConcordanceBible](https://github.com/GoldstonianConcordanceBible/canonical-index)
+- **GCB Impact (mission + funding + agents)**: https://github.com/GoldstonianConcordanceBible/gcb-impact-
 - **Amazon Author Page**: (https://www.amazon.com/stores/Justin-Goldston-PhD/author/B0F312SD97?ref=ap_rdr&shoppingPortalEnabled=true&ccs_id=d5aa4cfe-3eb7-4de6-ac76-c892219f2fae)
 - **Latest Volume**: (https://a.co/d/3yUT9b2)
 - **Free Companion Resources**: (https://www.amazon.com/dp/B0GH6B3T91?binding=kindle_edition&ref=dbs_dp_rwt_sb_pc_tkin)
