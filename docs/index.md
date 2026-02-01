@@ -5,24 +5,27 @@ title: "Home"
 # Goldstonian Concordance Bible
 **Walk in the Word of God—clearly—inside a noisy internet.**
 
-This site is the **public front door** for the GCB ecosystem:
-- quick onboarding
-- weekly reading plans
-- free study tools
-- clean links to volumes + canonical index
-- support options that keep Scripture free
+This site is the **front door** for the GCB ecosystem:
+- Start Here onboarding
+- Weekly reading plans
+- Free study guides
+- Clean links to canon + volumes
+- Support that keeps Scripture free
 
 ## Start here
-➡️ Go to **[Start Here](./start-here.html)**
+➡️ **[Start Here](./start-here.html)**
 
-## Need all links in one place?
+## One link for everything
 ➡️ **[Link Hub](./linkhub.html)**
 
 ## Weekly plans
 ➡️ **[Reading Plans](./reading-plans/index.html)**
 
 ## Free downloads
-➡️ **[Lead Magnets](./lead-magnets/index.html)**
+➡️ **[Free Downloads](./lead-magnets/index.html)**
 
-## Support the work
-➡️ **[Support / Offers](./offers/index.html)**
+## Moltbook
+➡️ **[Moltbook Posting Templates](./moltbook.html)**
+
+## Support (Scripture stays free)
+➡️ **[Support](./support.html)**
