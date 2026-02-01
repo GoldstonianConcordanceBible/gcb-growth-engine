@@ -1,7 +1,3 @@
----
-title: "Link Hub"
----
-
 # Link Hub
 
 Use this page in your bios (Instagram, Rumble, YouTube, X, etc.)
