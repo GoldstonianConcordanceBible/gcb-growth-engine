@@ -1,16 +1,9 @@
----
-title: "Support / Offers"
----
+# Offers
 
-# Support / Offers
+Support exists to keep Scripture free while funding tools, translation, and outreach.
 
-The Word of God remains free. Support exists to fund:
-- hosting + reliability
-- translation + accessibility
-- study tools + indexing
-- security + maintenance
-
-## Choose your lane
 - [Supporter](./supporter.html)
 - [Church Pack](./church-pack.html)
 - [Training](./training.html)
+- [Sponsor a Milestone](./sponsor-a-milestone.html)
+
