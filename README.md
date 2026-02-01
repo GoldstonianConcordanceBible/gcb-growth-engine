@@ -1,54 +1,54 @@
-# gcb-growth-engine
-This repository is the **distribution + conversion layer** for the Goldstonian Concordance Bible (GCB). It is designed to help people **walk in the Word of God** in a noisy digital space while building sustainable support for hosting, translation, tooling, and outreach.
-
 # GCB Growth Engine
 
 This repository is the **distribution + conversion layer** for the Goldstonian Concordance Bible (GCB).
-It is designed to help people **walk in the Word of God** in a noisy digital space while building
-sustainable support for hosting, translation, tooling, and outreach.
+It is designed to help people **walk in the Word of God with clarity** in a noisy digital space while
+building sustainable support for hosting, translation, tooling, and outreach.
 
-This repo is intentionally separate from the theological canon repos so that:
-- the canon repos stay clean, scholarly, and stable
-- the growth engine can move fast (landing pages, lead magnets, weekly plans, social templates)
-- links can be updated without touching core data
+This repo is intentionally separate from the canon repos so that:
+- the canon repos stay stable, scholarly, and citable
+- the growth engine can iterate fast (landing pages, link hub, lead magnets, weekly plans, offers)
+- links can change without touching the core project spine
 
 ## What this repo does
 - GitHub Pages site (docs/) with:
-  - “Start here” onboarding
-  - link hub (for bios, socials, Moltbook, Rumble, YouTube)
-  - lead magnets (free downloads / reading plans)
-  - offers (support tiers, church packs, training)
-  - press kit + FAQ
+  - Start Here onboarding
+  - Link Hub (bio links)
+  - Weekly reading plans
+  - Free “lead magnets” (downloads / guides)
+  - Offers (support tiers, church pack, training)
+  - Moltbook templates
+  - Metrics page (simple KPI discipline)
+  - UTM tracking guidance (clean attribution)
+
 - Automation:
-  - publish GitHub Pages on every push
-  - generate weekly reading plan pages from a template
-  - optional release notes workflow
+  - Deploy GitHub Pages on push
+  - Generate weekly plan pages (workflow_dispatch)
+  - Create release notes pages on GitHub releases
+  - Sync press kit automatically from repo metadata (optional)
+  - Verify Link Hub links (basic hygiene)
 
 ## What this repo does NOT do
-- It does not host the Scripture text behind a paywall.
-- It does not replace your canonical repositories.
-- It does not ask people to “pay for the Bible.”
+- No paywall for Scripture.
+- No manipulative fundraising.
+- No “engagement bait” theology.
 
 ## Connect to the main org
 Primary org: https://github.com/GoldstonianConcordanceBible
 
 Suggested “source of truth” repos to link here:
-- canonical index repo (your routing + metadata)
-- each volume repo (book content / companion indexes)
-- gcb-impact repo (mission + conduct + funding + agent skills)
+- canonical index repo (routing + metadata)
+- each volume repo (book content / companion resources)
+- gcb-impact repo (mission + funding + agent skills)
 
-## Setup in 5 minutes
-1) Create repo: `gcb-growth-engine` under your org.
-2) Copy/paste the files in this repository structure.
-3) Go to GitHub repo Settings → Pages:
+## Setup (10 minutes)
+1) Create repo: `gcb-growth-engine` under your GitHub org.
+2) Paste these files with the same paths.
+3) Repo Settings → Pages:
    - Source: **GitHub Actions**
 4) Edit `docs/_config.yml`:
-   - set `url` and `title`
-5) Edit `docs/linkhub.md`:
-   - add your real links (Amazon, Substack, Rumble, YouTube)
+   - set `url` + `baseurl`
+5) Edit `docs/linkhub.md` with your real links.
+6) Run: Actions → “Generate Weekly Reading Plan”
 
 ## The principle
-We aim to be loud about the Gospel, quiet about ourselves, and excellent in craft.
-
-> “The power is in the Word of God.” Tools simply help people reach it.
-
+Be loud about the Gospel, quiet about ourselves, excellent in craft.
