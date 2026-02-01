@@ -9,7 +9,7 @@ Use this page in your bios (Instagram, Rumble, YouTube, X, etc.)
 
 ## Core Repositories
 - GitHub Org: https://github.com/GoldstonianConcordanceBible
-- Canonical Index: https://github.com/GoldstonianConcordanceBible
+- Canonical Index: [https://github.com/GoldstonianConcordanceBible](https://github.com/GoldstonianConcordanceBible/canonical-index)
 - GCB Impact (mission + funding + agents): (PASTE LINK)
 
 ## Read / Buy
