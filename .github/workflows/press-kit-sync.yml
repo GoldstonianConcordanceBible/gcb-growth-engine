@@ -1,0 +1,36 @@
+name: Sync Press Kit
+
+on:
+  workflow_dispatch:
+  push:
+    branches: ["main"]
+    paths:
+      - "scripts/sync_press_kit.py"
+      - "docs/press-kit.md"
+      - "docs/linkhub.md"
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Sync press kit from linkhub
+        run: |
+          python scripts/sync_press_kit.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "gcb-bot"
+          git config user.email "gcb-bot@users.noreply.github.com"
+          git add docs/press-kit.md
+          git commit -m "Sync press kit" || echo "No changes"
+          git push
