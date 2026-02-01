@@ -1,29 +1,8 @@
----
-title: "7-Day Walk Plan"
----
+# Free Downloads
 
-# 7-Day Walk Plan (Free)
+- [7-Day Walk Plan](./7-day-walk.html)
+- [Sermon / Teaching Kit](./sermon-kit.html)
+- [GCB Reading Rhythm](./gcb-reading-rhythm.html)
 
-## The rule
-Each day:
-1) read the passage
-2) write 1 sentence: “Mirror”
-3) write 1 sentence: “Water”
-4) take 1 step: “Fire”
+These are designed to turn “interest” into “obedient consistency.”
 
-## Day 1
-Passage: (fill)
-Mirror:
-Water:
-Fire:
-
-## Day 2
-Passage: (fill)
-Mirror:
-Water:
-Fire:
-
-(Repeat to Day 7)
-
-## Want weekly plans?
-Go to: [Reading Plans](../reading-plans/index.html)
